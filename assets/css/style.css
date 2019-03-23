@@ -1,11 +1,13 @@
+/* site wide styling */
+
 #name{
     color:white;
     background-color: navy;
     position:absolute;
     left:0;
     margin:0 268px 10px 0px;
-    height:50px;
-    padding: 10px 5px;
+    height:40px;
+    padding: 15px 5px;
 }
 
  .links{
@@ -15,8 +17,8 @@
      text-align: center;
      float:right;
      width: 96px;
-     padding:10px 5px ;
-     height:50px;
+     padding:15px 5px ;
+     height:40px;
      margin-bottom: 10px;
     
  }
@@ -25,7 +27,7 @@
      position:relative;
      width:960px;
      height: 70px;
-     margin: 0 50px;
+     margin: 0 50px 0 10%;
  }
 
  #header{
@@ -40,13 +42,11 @@
 
     width: 960px;
     background-color: paleturquoise;
-    margin: 20px 50px;
-
-
+    margin: 20px 10%;
 }
 
 body{
-    background-image:url()
+    background-image:url(../images/mosaic.png);
 }
 
 h2{
@@ -82,4 +82,38 @@ p{
     background-color: darkslategrey;
     text-align: center;
     height:30px;
+}
+
+/* cotact page styling */
+
+form{
+    color: navy;
+    font-size:20px;
+    margin: 0 10%
+}
+
+#inputName{
+width: 80%;
+margin: 5px 0;
+}
+
+#inputEmail{
+    width: 80%;
+    margin: 5px 0;
+}
+
+#inputMessage{
+    width: 80%;
+    height: 200px;
+    margin: 5px 0;
+}
+
+#submit{
+    background-color: navy;
+    color: white;
+    width: 80px;
+    height: 40px;
+    margin: 15px;
+    font-size: 15px;
+    font-weight:bold;
 }
