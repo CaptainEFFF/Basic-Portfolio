@@ -2,7 +2,7 @@
 
 #name{
     color:white;
-    background-color: navy;
+    background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position:absolute;
     left:0;
@@ -13,7 +13,7 @@
 
  .links{
      color:white;
-     background-color:navy;
+     background-color:#4aaaa5;
      font-family:Arial, Helvetica, sans-serif;
      font-size: 20px;
      text-align: center;
@@ -33,18 +33,22 @@
  }
 
  #header{
-     background-color: royalblue;
+     background-color: white;
      position:sticky;
      top:0;
      height: 70px;
+     border:5px;
+     border-color: #cccccc;
  
  }
 
 #body{
 
-    background-color: paleturquoise;
+    background-color: white;
     width: 960px;
     margin: 20px 10%;
+    border-width: 5px;
+    border: #dddddd;
 }
 
 body{
@@ -52,7 +56,7 @@ body{
 }
 
 h2{
-    color:navy;
+    color:#4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: bold;
@@ -79,7 +83,7 @@ p{
 
 #footer{
     color: white;
-    background-color: darkslategrey;
+    background-color: #666666;
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
     position:sticky;
@@ -89,7 +93,7 @@ p{
 }
 
 #foottop{
-    background-color: paleturquoise;
+    background-color: #4aaaa5;
     position: relative;
     top: -15px;
     height: 5px
@@ -98,7 +102,7 @@ p{
 /* cotact page styling */
 
 form{
-    color: navy;
+    color: #4aaaa5;
     font-size:20px;
     margin: 0 10%
 }
@@ -115,13 +119,13 @@ margin: 5px 0;
 
 #inputMessage{
     width: 80%;
-    height: 200px;
+    /* height: 200px; */
     margin: 5px 0;
 }
 
 #submit{
     color: white;
-    background-color: navy;
+    background-color: #4aaaa5;
     font-size: 15px;
     font-weight:bold;
     width: 80px;
@@ -149,7 +153,7 @@ margin: 5px 0;
 /* had to do rgb color scheme to change alpha/opacity */
 .port_text{
     color:white;
-    background-color:rgb(0,0,255,.6);
+    background-color:rgb(74,170,165,.6);
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;
     text-align:center;
