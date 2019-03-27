@@ -119,7 +119,6 @@ margin: 5px 0;
 
 #inputMessage{
     width: 80%;
-    /* height: 200px; */
     margin: 5px 0;
 }
 
@@ -135,7 +134,7 @@ margin: 5px 0;
 
 /* portfolio page styling */
 
-/* I personally prefer having the links 3 wide unlike the example, sue me */
+/* I personally prefer having the links 3 wide unlike the example */
 .port_link{
     float: left;
     position: relative;
