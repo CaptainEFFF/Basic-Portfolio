@@ -143,6 +143,8 @@ margin: 5px 0;
     float: left;
     position: relative;
     width: 30%;
+    /* Commented out the width that makes the images 2 wide instead of 3 */
+    /* width: 34%; */
     height: 250px;
     margin: 10px 10px;
 }
